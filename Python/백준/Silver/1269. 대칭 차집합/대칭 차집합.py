@@ -1,0 +1,6 @@
+a,ab=map(int,input().split())
+l1=set(map(int,input().split()))
+l2=set(map(int,input().split()))
+res1=len(l1-l2)
+res2=len(l2-l1)
+print(res1+res2)
